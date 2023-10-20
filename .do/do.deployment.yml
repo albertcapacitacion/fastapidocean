@@ -1,0 +1,7 @@
+spec:
+  name: fastapi-stateless
+  services:
+  - name: web
+    git:
+      branch: main
+      repo_clone_url: https://github.com/fkromer/digitalocean-fastapi-stateless

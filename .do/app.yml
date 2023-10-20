@@ -1,0 +1,6 @@
+name: fastapi-stateless
+services:
+- name: web
+  github:
+    repo: fkromer/digitalocean-fastapi-stateless
+    branch: main
