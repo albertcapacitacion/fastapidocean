@@ -13,3 +13,7 @@ async def read_root():
 @app.get("/hola")
 async def hola():
     return JSONResponse('El Domingo #confe')
+
+@app.get("/chau")
+async def chau():
+    return JSONResponse('El Lunes con todo dolar a 500 overshooting')
